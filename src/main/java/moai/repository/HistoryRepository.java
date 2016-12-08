@@ -1,6 +1,7 @@
 package moai.repository;
 
 import moai.domain.History;
+import moai.domain.ItemMeta;
 
 /**
  * Created by csommers on 11/18/2016.
@@ -8,7 +9,7 @@ import moai.domain.History;
 public interface HistoryRepository {
 
 
-
+void write(ItemMeta itemmeta, String event, String username);
 
 
 }

@@ -1,15 +1,38 @@
 package moai.domain;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.util.ArrayList;
 import java.util.Date;
 
 /**
  * Created by csommers on 11/18/2016.
  */
+@Entity
 public class ItemMeta {
+
+
+
     Date created;
     String created_by;
-    String item_id;
+
+    public String getPayload() {
+        return payload;
+    }
+
+    public void setPayload(String payload) {
+        this.payload = payload;
+    }
+
+    String payload;
+
+    @Id
+    @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name="system-uuid",
+            strategy = "uuid")
     String id;
     ArrayList<String> currently_assigned_to;
     String status;
@@ -34,13 +57,7 @@ public class ItemMeta {
         this.created_by = created_by;
     }
 
-    public String getItem_id() {
-        return item_id;
-    }
 
-    public void setItem_id(String item_id) {
-        this.item_id = item_id;
-    }
 
     public String getId() {
         return id;

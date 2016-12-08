@@ -1,14 +1,19 @@
 package moai.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.util.Date;
 
 /**
  * Created by csommers on 11/18/2016.
  */
+@Entity
 public class History {
 
-
-    int id;
+    @Id @GeneratedValue(strategy= GenerationType.AUTO)
+    int  id;
     String item_id;
     String item_type;
     String event;
