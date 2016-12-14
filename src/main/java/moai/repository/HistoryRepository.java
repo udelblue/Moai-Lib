@@ -1,6 +1,5 @@
 package moai.repository;
 
-import moai.domain.History;
 import moai.domain.ItemMeta;
 
 /**

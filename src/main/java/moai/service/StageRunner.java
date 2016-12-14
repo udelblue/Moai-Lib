@@ -3,7 +3,6 @@ package moai.service;
 import moai.domain.Item;
 import moai.domain.base.BaseStage;
 import moai.domain.stage.Action;
-import moai.repository.HistoryRepository;
 
 /**
  * Created by csommers on 11/17/2016.

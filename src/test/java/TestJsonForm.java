@@ -2,7 +2,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import moai.domain.serial.form.Field;
 import moai.domain.serial.form.Form;
 import moai.domain.serial.form.FormFields;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
