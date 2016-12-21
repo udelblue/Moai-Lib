@@ -1,12 +1,12 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
-import moai.domain.serial.flow.FlowData;
-import moai.domain.serial.flow.OperatorStage;
-import moai.domain.serial.flow.OperatorStageDetails;
-import moai.domain.serial.flow.Operators;
+import moai.domain.serial.flow.*;
+import moai.domain.utility.StringUtil;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
@@ -244,6 +244,42 @@ public class TestJsonData {
         assertTrue("Links count is not greater than 1", obj.getLinks().getLinks().size() > 1);
 
     }
+
+
+
+    @Test
+    public void NextStagesFromLinks() throws Exception {
+        ObjectMapper mapper = new ObjectMapper();
+        //JSON from file to Object
+        FlowData obj = mapper.readValue(json, FlowData.class);
+
+        //a61c565e-27d0-405c-aac6-3d3aa7ce0d29
+        String stageid = "a61c565e-27d0-405c-aac6-3d3aa7ce0d29";
+        List<String> nextStages = new ArrayList<String>();
+         Links links = obj.getLinks();
+        List<LinkDetails> ld = links.getLinks();
+        for (LinkDetails l:ld) {
+            if(l.getFromOperator().equals(stageid))
+            {
+                String to = l.getToOperator();
+               if(!StringUtil.nullOrEmpty(to))
+               {
+                  nextStages.add(to);
+               };
+            }
+
+        }
+
+
+
+        //babf2c9c-bac7-4a13-9cff-cfec02117264
+        assertTrue("Does not contain next stage", nextStages.contains("babf2c9c-bac7-4a13-9cff-cfec02117264"));
+        assertFalse("Should not contain random stage",  nextStages.contains("2abf2c9c-ba37-4a13-9cff-cfec02117264"));
+        assertTrue("Only one in next stage", nextStages.size() == 1);
+
+    }
+
+
 
     @Test
     public void SerializeOperatorTypes() throws Exception {

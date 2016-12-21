@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05467b94-854d-42b3-acfc-abec6032fc00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/LinkDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/Flow.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/Flow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/History.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/History.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/Item.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/Item.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/ItemMeta.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/ItemMeta.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/serial/flow/FlowData.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/serial/flow/FlowData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/serial/flow/Links.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/serial/flow/Links.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/serial/form/Field.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/serial/form/Field.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/serial/form/FieldOptions.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/serial/form/FieldOptions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/serial/form/Form.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/serial/form/Form.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/serial/form/FormFields.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/serial/form/FormFields.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/domain/stage/Expression.class" afterPath="$PROJECT_DIR$/target/classes/moai/domain/stage/Expression.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/repository/HistoryRepository.class" afterPath="$PROJECT_DIR$/target/classes/moai/repository/HistoryRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/moai/service/StageRunner.class" afterPath="$PROJECT_DIR$/target/classes/moai/service/StageRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestJsonData.class" afterPath="$PROJECT_DIR$/target/test-classes/TestJsonData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestJsonForm.class" afterPath="$PROJECT_DIR$/target/test-classes/TestJsonForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/moai/domain/utility/StringUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/Links.java" afterPath="$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/Links.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/moai/repository/HistoryRepository.java" afterPath="$PROJECT_DIR$/src/main/java/moai/repository/HistoryRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/moai/service/StageRunner.java" afterPath="$PROJECT_DIR$/src/main/java/moai/service/StageRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestJsonForm.java" afterPath="$PROJECT_DIR$/src/test/java/TestJsonForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestJsonData.java" afterPath="$PROJECT_DIR$/src/test/java/TestJsonData.java" />
     </list>
     <ignored path="Moai-Lib.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +30,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestJsonData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestJsonData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestJsonData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="248" column="24" selection-start-line="248" selection-start-column="24" selection-end-line="248" selection-end-column="24" />
+            <state relative-caret-position="450">
+              <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+              <folding>
+                <element signature="e#10879#10887#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StageRunner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/moai/service/StageRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/moai/domain/utility/StringUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -62,10 +65,9 @@
       <file leaf-file-name="Links.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/Links.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="629">
               <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
-                <element signature="e#1029#1042#0" expanded="true" />
                 <marker date="1481729715943" expanded="false" signature="617:628" ph=" { " />
                 <marker date="1481729715943" expanded="false" signature="661:667" ph=" }" />
                 <marker date="1481729715943" expanded="false" signature="739:750" ph=" { " />
@@ -116,26 +118,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperatorStage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/OperatorStage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperatorStageDetails.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/OperatorStageDetails.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OperatorStageInputs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/OperatorStageInputs.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -153,28 +135,6 @@
               <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
               <folding>
                 <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/moai/base/StageRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/moai/domain/BaseBeginStage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Action.java" />
         <option value="$PROJECT_DIR$/src/main/java/moai/domain/StageRunner.java" />
@@ -241,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/OperatorStageOutputs.java" />
         <option value="$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/OperatorStageDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/FlowData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestJsonData.java" />
         <option value="$PROJECT_DIR$/src/main/java/moai/service/StageRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/moai/domain/Item.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestJsonForm.java" />
@@ -253,6 +211,8 @@
         <option value="$PROJECT_DIR$/src/main/java/moai/domain/Flow.java" />
         <option value="$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/LinkDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/Links.java" />
+        <option value="$PROJECT_DIR$/src/main/java/moai/domain/utility/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestJsonData.java" />
       </list>
     </option>
   </component>
@@ -269,10 +229,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1592" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -297,7 +257,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -315,6 +275,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -329,7 +292,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,6 +375,36 @@
               <option name="myItemId" value="moai" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moai-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moai-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -441,6 +433,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moai-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moai-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -516,11 +542,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moai-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moai-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -978,12 +1036,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestJsonData - 2016.11.23 at 14h 28m 31s.xml">
-      <configuration name="TestJsonData" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJsonData - 2016.11.23 at 15h 11m 52s.xml">
-      <configuration name="TestJsonData" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestJsonData - 2016.12.05 at 14h 06m 13s.xml">
       <configuration name="TestJsonData" configurationId="JUnit" />
     </history-entry>
@@ -999,6 +1051,12 @@
     <history-entry file="TestJsonData - 2016.12.14 at 10h 35m 45s.xml">
       <configuration name="TestJsonData" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestJsonData - 2016.12.21 at 08h 25m 43s.xml">
+      <configuration name="TestJsonData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJsonData - 2016.12.21 at 09h 11m 07s.xml">
+      <configuration name="TestJsonData" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestJsonForm - 2016.11.23 at 13h 12m 40s.xml">
       <configuration name="TestJsonForm" configurationId="JUnit" />
     </history-entry>
@@ -1010,23 +1068,23 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285528" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283767" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34680575" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3110285" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1070,14 +1128,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/moai/domain/base/BaseStage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1110,16 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#154#155#0" expanded="false" />
-            <element signature="e#182#183#0" expanded="false" />
-            <element signature="e#224#225#0" expanded="false" />
-            <element signature="e#258#259#0" expanded="false" />
-            <element signature="e#287#288#0" expanded="false" />
-            <element signature="e#312#313#0" expanded="false" />
-            <element signature="e#348#349#0" expanded="false" />
-            <element signature="e#376#377#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,13 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/moai/service/StageRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestJsonForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2499">
@@ -1281,11 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#310#311#0" expanded="false" />
-            <element signature="e#338#339#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1293,9 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1303,7 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,47 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#383#384#0" expanded="false" />
-            <element signature="e#413#414#0" expanded="false" />
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#846#847#0" expanded="false" />
-            <element signature="e#876#877#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-            <element signature="e#1028#1029#0" expanded="false" />
-            <element signature="e#1080#1081#0" expanded="false" />
-            <element signature="e#1124#1125#0" expanded="false" />
-            <element signature="e#1155#1156#0" expanded="false" />
-            <element signature="e#1180#1181#0" expanded="false" />
-            <element signature="e#1216#1217#0" expanded="false" />
-            <element signature="e#1244#1245#0" expanded="false" />
-            <element signature="e#1303#1304#0" expanded="false" />
-            <element signature="e#1347#1348#0" expanded="false" />
-            <element signature="e#1531#1532#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-            <element signature="e#1604#1605#0" expanded="false" />
-            <element signature="e#1640#1641#0" expanded="false" />
-            <element signature="e#1671#1672#0" expanded="false" />
-            <element signature="e#1698#1699#0" expanded="false" />
-            <element signature="e#1738#1739#0" expanded="false" />
-            <element signature="e#1770#1771#0" expanded="false" />
-            <element signature="e#1802#1803#0" expanded="false" />
-            <element signature="e#1830#1831#0" expanded="false" />
-            <element signature="e#1872#1873#0" expanded="false" />
-            <element signature="e#1906#1907#0" expanded="false" />
-            <element signature="e#1958#1959#0" expanded="false" />
-            <element signature="e#1995#1996#0" expanded="false" />
-            <element signature="e#2066#2067#0" expanded="false" />
-            <element signature="e#2118#2119#0" expanded="false" />
-            <element signature="e#2149#2150#0" expanded="false" />
-            <element signature="e#2179#2180#0" expanded="false" />
-            <element signature="e#2222#2223#0" expanded="false" />
-            <element signature="e#2260#2261#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1359,16 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#154#155#0" expanded="false" />
-            <element signature="e#182#183#0" expanded="false" />
-            <element signature="e#224#225#0" expanded="false" />
-            <element signature="e#258#259#0" expanded="false" />
-            <element signature="e#287#288#0" expanded="false" />
-            <element signature="e#312#313#0" expanded="false" />
-            <element signature="e#348#349#0" expanded="false" />
-            <element signature="e#376#377#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1376,45 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-            <element signature="e#616#617#0" expanded="false" />
-            <element signature="e#650#651#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#726#727#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-            <element signature="e#800#801#0" expanded="false" />
-            <element signature="e#832#833#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <element signature="e#956#957#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
-            <element signature="e#1026#1027#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1097#1098#0" expanded="false" />
-            <element signature="e#1130#1131#0" expanded="false" />
-            <element signature="e#1182#1183#0" expanded="false" />
-            <element signature="e#1226#1227#0" expanded="false" />
-            <element signature="e#1266#1267#0" expanded="false" />
-            <element signature="e#1302#1303#0" expanded="false" />
-            <element signature="e#1360#1361#0" expanded="false" />
-            <element signature="e#1410#1411#0" expanded="false" />
-            <element signature="e#1445#1446#0" expanded="false" />
-            <element signature="e#1478#1479#0" expanded="false" />
-            <element signature="e#1528#1529#0" expanded="false" />
-            <element signature="e#1572#1573#0" expanded="false" />
-            <element signature="e#1608#1609#0" expanded="false" />
-            <element signature="e#1643#1644#0" expanded="false" />
-            <element signature="e#1696#1697#0" expanded="false" />
-            <element signature="e#1744#1745#0" expanded="false" />
-            <element signature="e#1776#1777#0" expanded="false" />
-            <element signature="e#1804#1805#0" expanded="false" />
-            <element signature="e#1846#1847#0" expanded="false" />
-            <element signature="e#1880#1881#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1422,7 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1430,11 +1363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1442,7 +1370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1516,38 +1443,15 @@
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding>
             <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/moai/domain/serial/flow/Links.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="629">
           <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
-            <element signature="e#1029#1042#0" expanded="true" />
             <marker date="1481729715943" expanded="false" signature="617:628" ph=" { " />
             <marker date="1481729715943" expanded="false" signature="661:667" ph=" }" />
             <marker date="1481729715943" expanded="false" signature="739:750" ph=" { " />
@@ -1557,10 +1461,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/moai/domain/utility/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestJsonData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="248" column="24" selection-start-line="248" selection-start-column="24" selection-end-line="248" selection-end-column="24" />
+        <state relative-caret-position="450">
+          <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+          <folding>
+            <element signature="e#10879#10887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/moai/service/StageRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
