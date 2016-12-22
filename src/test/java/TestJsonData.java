@@ -1,9 +1,8 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 import moai.domain.serial.flow.*;
-import moai.domain.utility.StringUtil;
+import moai.service.WorkflowUtility;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertFalse;
@@ -249,28 +248,10 @@ public class TestJsonData {
 
     @Test
     public void NextStagesFromLinks() throws Exception {
-        ObjectMapper mapper = new ObjectMapper();
-        //JSON from file to Object
-        FlowData obj = mapper.readValue(json, FlowData.class);
-
-        //a61c565e-27d0-405c-aac6-3d3aa7ce0d29
-        String stageid = "a61c565e-27d0-405c-aac6-3d3aa7ce0d29";
-        List<String> nextStages = new ArrayList<String>();
-         Links links = obj.getLinks();
-        List<LinkDetails> ld = links.getLinks();
-        for (LinkDetails l:ld) {
-            if(l.getFromOperator().equals(stageid))
-            {
-                String to = l.getToOperator();
-               if(!StringUtil.nullOrEmpty(to))
-               {
-                  nextStages.add(to);
-               };
-            }
-
-        }
 
 
+        WorkflowUtility su =new WorkflowUtility(json);
+        List<String> nextStages  = su.nextStages("a61c565e-27d0-405c-aac6-3d3aa7ce0d29");
 
         //babf2c9c-bac7-4a13-9cff-cfec02117264
         assertTrue("Does not contain next stage", nextStages.contains("babf2c9c-bac7-4a13-9cff-cfec02117264"));
@@ -278,6 +259,41 @@ public class TestJsonData {
         assertTrue("Only one in next stage", nextStages.size() == 1);
 
     }
+
+
+
+    @Test
+    public void EndStagesFromLinks() throws Exception {
+
+        WorkflowUtility su =new WorkflowUtility(json);
+        List<String> endStages  = su.endStages();
+        assertTrue("Only one in end stage", endStages.size() == 1);
+
+    }
+
+
+    @Test
+    public void StartStagesFromLinks() throws Exception {
+
+        WorkflowUtility su =new WorkflowUtility(json);
+        List<String> startStages  = su.startStages();
+        assertTrue("Only one in start stage", startStages.size() == 1);
+
+    }
+
+
+
+    @Test
+    public void GetStageFromJson() throws Exception {
+
+
+        String stageid = "a61c565e-27d0-405c-aac6-3d3aa7ce0d29";
+        ObjectMapper mapper = new ObjectMapper();
+        FlowData obj = mapper.readValue(json, FlowData.class);
+
+    }
+
+
 
 
 
