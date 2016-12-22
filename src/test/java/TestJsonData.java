@@ -1,5 +1,6 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 import moai.domain.serial.flow.*;
+import moai.domain.utility.StringUtil;
 import moai.service.WorkflowUtility;
 import org.junit.Test;
 
@@ -259,6 +260,44 @@ public class TestJsonData {
         assertTrue("Only one in next stage", nextStages.size() == 1);
 
     }
+
+
+
+    @Test
+    public void PreviousStagesFromLinks() throws Exception {
+
+
+        WorkflowUtility su =new WorkflowUtility(json);
+        List<String> nextStages  = su.nextStages("a61c565e-27d0-405c-aac6-3d3aa7ce0d29");
+
+        //babf2c9c-bac7-4a13-9cff-cfec02117264
+        //assertTrue("Does not contain next stage", nextStages.contains("babf2c9c-bac7-4a13-9cff-cfec02117264"));
+        //assertFalse("Should not contain random stage",  nextStages.contains("2abf2c9c-ba37-4a13-9cff-cfec02117264"));
+        assertTrue("Only one in previous stage", nextStages.size() == 1);
+
+    }
+
+
+
+    @Test
+    public void GetStageName() throws Exception {
+        WorkflowUtility su =new WorkflowUtility(json);
+        String name  = su.stageNameFromID("a61c565e-27d0-405c-aac6-3d3aa7ce0d29");
+        assertTrue("Stage name empty or null", !StringUtil.nullOrEmpty(name));
+
+    }
+
+
+
+
+    @Test
+    public void GetStageType() throws Exception {
+        WorkflowUtility su =new WorkflowUtility(json);
+        String name  = su.stageTypeFromID("a61c565e-27d0-405c-aac6-3d3aa7ce0d29");
+        assertTrue("Stage type empty or null", !StringUtil.nullOrEmpty(name));
+
+    }
+
 
 
 

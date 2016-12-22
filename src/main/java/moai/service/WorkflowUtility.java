@@ -52,7 +52,7 @@ public class WorkflowUtility {
                 startStages.add(stageid);
             }
 
-        };
+        }
 
 
         return startStages;
@@ -73,8 +73,6 @@ public class WorkflowUtility {
                     {
                         flag = true;
                     }
-
-
             }
 
             if(!flag)
@@ -101,7 +99,7 @@ public class WorkflowUtility {
                     if(!StringUtil.nullOrEmpty(to))
                     {
                         nextStages.add(to);
-                    };
+                    }
                 }
 
             }
@@ -112,7 +110,63 @@ public class WorkflowUtility {
 
 
 
+    public List<String> previousStages( String currentstageid){
 
+        List<String> previousStages = new ArrayList<String>();
+
+        Links links = obj.getLinks();
+        List<LinkDetails> ld = links.getLinks();
+        for (LinkDetails l:ld) {
+            if(l.getToOperator().equals(currentstageid))
+            {
+                String to = l.getToOperator();
+                if(!StringUtil.nullOrEmpty(to))
+                {
+                    previousStages.add(to);
+                }
+            }
+
+        }
+
+
+        return previousStages;
+    }
+
+
+
+    public String stageNameFromID ( String currentstageid) {
+    String name = "";
+
+        List<OperatorStage> stages =  obj.getOperators().getOperatorProperties();
+
+        for (OperatorStage stage: stages) {
+            String stageid =  stage.getProperties().getOpid();
+           if (currentstageid.equals(stageid))
+           {
+               name = stage.getProperties().getTitle();
+               return name;
+           }
+        }
+
+    return name;
+    }
+
+
+    public String stageTypeFromID ( String currentstageid) {
+        String name = "";
+        List<OperatorStage> stages =  obj.getOperators().getOperatorProperties();
+
+        for (OperatorStage stage: stages) {
+            String stageid =  stage.getProperties().getOpid();
+            if (currentstageid.equals(stageid))
+            {
+                name = stage.getProperties().getType();
+                return name;
+            }
+        }
+
+        return name;
+    }
 
 
 
