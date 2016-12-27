@@ -25,4 +25,17 @@ public class FormUtility {
 
 
     }
+
+
+
+    public String formname(){
+       return obj.getForm_name();
+    }
+
+
+    public String formid(){
+        return obj.getForm_id();
+    }
+
+
 }
