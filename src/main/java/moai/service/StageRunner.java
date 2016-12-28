@@ -4,6 +4,8 @@ import moai.domain.Item;
 import moai.domain.base.BaseStage;
 import moai.domain.stage.Action;
 
+import java.util.List;
+
 /**
  * Created by csommers on 11/17/2016.
  */
@@ -12,7 +14,7 @@ public abstract class  StageRunner {
     Item item;
     BaseStage stage;
 
-
+    WorkflowUtility wu;
 
 
 
@@ -41,7 +43,13 @@ public abstract class  StageRunner {
         this.item = item;
         this.stage = stage;
 
+        //// TODO: 12/28/2016 add json
+        String json = "";
+        String currentstageid = "";
 
+        wu = new WorkflowUtility(json);
+        List<String> nextstages = wu.nextStages(currentstageid);
+        //// TODO: 12/28/2016 set current stage  
 
 
 
