@@ -37,8 +37,20 @@ public class ItemMeta {
     ArrayList<String> currently_assigned_to;
     String status;
     String type;
+
+
+
     String title;
-    ArrayList<String> current_stages;
+
+    public String getCurrent_stage() {
+        return current_stage;
+    }
+
+    public void setCurrent_stage(String current_stage) {
+        this.current_stage = current_stage;
+    }
+
+    String current_stage;
     int version;
 
     public Date getCreated() {
@@ -99,13 +111,7 @@ public class ItemMeta {
         this.title = title;
     }
 
-    public ArrayList<String> getCurrent_stages() {
-        return current_stages;
-    }
 
-    public void setCurrent_stages(ArrayList<String> current_stages) {
-        this.current_stages = current_stages;
-    }
 
     public int getVersion() {
         return version;

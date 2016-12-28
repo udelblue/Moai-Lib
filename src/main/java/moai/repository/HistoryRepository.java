@@ -8,7 +8,6 @@ import moai.domain.ItemMeta;
 public interface HistoryRepository {
 
 
-void write(ItemMeta itemmeta, String event, String username);
 
 
 }
