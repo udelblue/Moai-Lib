@@ -4,6 +4,7 @@ import moai.domain.ItemMeta;
 import moai.domain.serial.flow.FlowData;
 import moai.domain.serial.flow.Operators;
 import moai.repository.HistoryRepository;
+import moai.service.HistoryService;
 import moai.service.WorkflowUtility;
 import org.junit.Test;
 
@@ -226,14 +227,9 @@ public class TestApproval {
         String user = "";
         String comment = "";
 
-        History h = new History();
-        h.setItem_id(im.getId());
-        h.setEvent_date(new Date());
-        h.setEvent(event);
-        h.setEvent_user(user);
-        h.setItem_version(im.getVersion());
-        h.setItem_type(im.getType());
-        h.setEvent_comment(comment);
+
+        HistoryService hs = new HistoryService();
+        hs.Write(im,user,event,comment);
 
     }
     @Test

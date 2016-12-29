@@ -32,7 +32,7 @@ public class HistoryService {
         h.setItem_version(itemMeta.getVersion());
         h.setItem_type(itemMeta.getType());
         h.setEvent_comment(comment);
-
+        h.setStage(itemMeta.getCurrent_stage());
 
 
     }

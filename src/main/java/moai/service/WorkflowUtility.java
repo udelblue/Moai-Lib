@@ -5,7 +5,9 @@ import moai.domain.serial.flow.*;
 import moai.domain.utility.StringUtil;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by csommers on 12/21/2016.
@@ -168,6 +170,17 @@ public class WorkflowUtility {
         return name;
     }
 
+
+    public Map<String,String> allStageIDsAndStageNames(){
+        Map m1 = new HashMap();
+        List<OperatorStage> stages =  obj.getOperators().getOperatorProperties();
+        for (OperatorStage stage: stages) {
+            String stageid =  stage.getProperties().getOpid();
+            String stagename = stage.getProperties().getTitle();
+            m1.put(stageid, stagename);
+        }
+        return m1;
+    }
 
 
 }
