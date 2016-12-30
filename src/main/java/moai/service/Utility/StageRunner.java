@@ -1,8 +1,9 @@
-package moai.service;
+package moai.service.utility;
 
 import moai.domain.Item;
 import moai.domain.base.BaseStage;
 import moai.domain.stage.Action;
+import moai.service.WorkflowUtility;
 
 import java.util.List;
 

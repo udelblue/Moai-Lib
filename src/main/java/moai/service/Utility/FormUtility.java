@@ -1,4 +1,4 @@
-package moai.service;
+package moai.service.utility;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import moai.domain.serial.form.Form;
